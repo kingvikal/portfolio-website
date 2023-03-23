@@ -1,11 +1,11 @@
-import React from 'react'
-import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import React from "react";
+import "./portfolio.css";
+import IMG1 from "../../assets/portfolio1.jpg";
+import IMG2 from "../../assets/portfolio2.jpg";
+import IMG3 from "../../assets/portfolio3.jpg";
+import IMG4 from "../../assets/portfolio4.jpg";
+import IMG5 from "../../assets/portfolio5.png";
+import IMG6 from "../../assets/portfolio6.jpg";
 
 const Portfolio = () => {
   return (
@@ -14,68 +14,109 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className='portfolio__item'>
+        <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG1} alt='' />
+            <img src={IMG1} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>This is a personal portfolio website </h3>
           <div className="portfolio__item-cta">
-            <a href='https://github.com' className='btn' target={''}>Github</a>
-            <a href='https://dribble.com' className='btn btn-primary' target={''}>Live Demo</a>
+            <a
+              href="https://github.com/kingvikal/portfolio-website"
+              className="btn"
+              target={""}
+            >
+              Github
+            </a>
+            <a className="btn btn-primary" target={""}>
+              Live Demo
+            </a>
           </div>
         </article>
-        <article className='portfolio__item'>
+        <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG2} alt='' />
+            <img src={IMG2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>This is a backend of Hotel Booking App </h3>
           <div className="portfolio__item-cta">
-            <a href='https://github.com' className='btn' target={''}>Github</a>
-            <a href='https://dribble.com' className='btn btn-primary' target={''}>Live Demo</a>
+            <a
+              href="https://github.com/kingvikal/hotel-booking-backkend"
+              className="btn"
+              target={""}
+            >
+              Github
+            </a>
+            <a className="btn btn-primary" target={""}>
+              Live Demo
+            </a>
           </div>
         </article>
-        <article className='portfolio__item'>
+        <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG3} alt='' />
+            <img src={IMG3} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>This is a frontend of Hotel Booking App</h3>
           <div className="portfolio__item-cta">
-            <a href='https://github.com' className='btn' target={''}>Github</a>
-            <a href='https://dribble.com' className='btn btn-primary' target={''}>Live Demo</a></div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt='' />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href='https://github.com' className='btn' target={''}>Github</a>
-            <a href='https://dribble.com' className='btn btn-primary' target={''}>Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG5} alt='' />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href='https://github.com' className='btn' target={''}>Github</a>
-            <a href='https://dribble.com' className='btn btn-primary' target={''}>Live Demo</a>
+            <a
+              href="https://github.com/kingvikal/hotel-booking-frontend"
+              className="btn"
+              target={""}
+            >
+              Github
+            </a>
+            <a className="btn btn-primary" target={""}>
+              Live Demo
+            </a>
           </div>
         </article>
-        <article className='portfolio__item'>
+        <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG6} alt='' />
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>This is an ecommerce website of AgroNepal</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/kingvikal/agro_nepal"
+              className="btn"
+              target={""}
+            >
+              Github
+            </a>
+            <a className="btn btn-primary" target={""}>
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>This is a basic login Screen</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/kingvikal/loginscreen" className="btn" target={""}>
+              Github
+            </a>
+            <a className="btn btn-primary" target={""}>
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
           </div>
           <h3>This is a portfolio item title</h3>
           <div className="portfolio__item-cta">
-            <a href='https://github.com' className='btn' target={''}>Github</a>
-            <a href='https://dribble.com' className='btn btn-primary' target={''}>Live Demo</a>
+            <a href="https://github.com" className="btn" target={""}>
+              Github
+            </a>
+            <a className="btn btn-primary" target={""}>
+              Live Demo
+            </a>
           </div>
         </article>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Portfolio
+export default Portfolio;
